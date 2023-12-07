@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Senhas</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="container">
+        <div id="login">
+            <h1>PASS OF FEAR</h1>
+            
+            <div class="linhaSenha">
+                <input type="password" id="entradaSenha" placeholder="Digite sua senha">
+                <span id="mostrarSenha">Mostrar Senha</span>
+            </div>
+            <div id="medidorPoder"></div>
+            <p>Requisitos</p>
+
+            <div id="requisitos">
+                <div id="requisitoNumero" class="requisito">Número</div>
+                <div id="requisitoMinuscula" class="requisito">Letra minúscula</div>
+                <div id="requisitoMaiuscula" class="requisito">Letra maiúscula</div>
+                <div id="requisitoComprimento" class="requisito">Comprimento (8)</div>
+                <div id="requisitoSimbolo" class="requisito">Símbolo</div>
+            </div>
+
+
+            <div id="textoPoder"></div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
